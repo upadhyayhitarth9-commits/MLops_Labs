@@ -19,7 +19,7 @@ def generate_house_data(n_samples=1000):
     data = {
         'square_feet': np.random.randint(500, 5000, n_samples),
         'bedrooms': np.random.randint(1, 6, n_samples),
-        'bathrooms': np.random.randls ~/MLops_Labs/Lab2/House-price-api/int(1, 4, n_samples),
+        'bathrooms': np.random.randint(1, 4, n_samples),
         'age_years': np.random.randint(0, 50, n_samples),
         'garage_size': np.random.randint(0, 4, n_samples),
         'has_pool': np.random.randint(0, 2, n_samples),
