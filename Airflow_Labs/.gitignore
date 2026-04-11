@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Airflow logs
+logs/
+
+# Generated model files
+working_data/diabetes_dt_model.pkl
+working_data/scaler.pkl
+working_data/evaluation_results.txt
+
+# Keep the dataset
+!working_data/diabetes.csv
